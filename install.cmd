@@ -74,7 +74,7 @@ echo - Instalando offWinDefender
 echo -------------------------------------------------
 cd "installPacksOld"
 cd "ferramentas"
-REM if exist "offWinDefender.reg" REG IMPORT offWinDefender.reg
+if exist "offWinDefender.reg" REG IMPORT offWinDefender.reg
 cd %pastaRaiz%
 REM xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
