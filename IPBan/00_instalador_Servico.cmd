@@ -7,5 +7,3 @@ sc.exe create IPBan type= own start= delayed-auto binPath= %local%\DigitalRuby.I
 sc.exe description IPBan "Cria automaticamente regras de firewall para tentativas abusivas de login: https://github.com/DigitalRuby/IPBan"
 sc.exe failure IPBan reset= 9999 actions= "restart/60000/restart/60000/restart/60000"
 sc.exe start IPBan
-
-pause
